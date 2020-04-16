@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin: 8px;
+   
+}
+#color {
+    color: red;
+}
+.image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url("./7257EB71-4DEC-4DEE-95FA-9A371DDB6789L0001.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid red;
+    margin-left: 40%;
+
+
+}
+.bio-data {
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    color: white;
+    
+}
+
+h2 {
+    text-align: center;
+}
+p {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 100px;
+}
+.meet_contact {
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+}
+#meet {
+    width: 500px;
+    height: 250px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#Grace {
+    margin: 0;
+}
+#contact {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 400px;
+    height: 200px;
+    color: white;
+}
+#text {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 250px;
+    padding: 8px;
+}
+#message {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 250px;
+    height: 100px;
+    padding: 8px;
+}
+#submit {
+    margin-left: 100px;
+    cursor: pointer;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+#submit:hover {
+    background-color: white;
+    color: red;
+    transition: all 1.4s ease;
+    
+}
+#reach {
+    color: red;
+
+}
